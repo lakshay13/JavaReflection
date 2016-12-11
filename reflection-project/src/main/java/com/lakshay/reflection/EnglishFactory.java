@@ -24,9 +24,9 @@ public class EnglishFactory {
      */
     public Object build(Class<?> clazz) {
         /**
-         * Identify the type of Toyota Car
+         * Identify the type of english school
          * get the corresponding constructor
-         * get the methods based on engine, wheel etc
+         * get the methods based on facilities.
          * invoke the corresponding methods
          * return the object
          */
