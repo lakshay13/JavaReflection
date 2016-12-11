@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-# SpockFramework
-=======
-# Spring-Project
+# ReflectionProject
 
-This project is a very basic project that tells about how Spring MVC framework can be used. In order to execute this project- Ensure that tomcat is setup in your system and once it is done then follow the following steps:
+Reflection allows Java to inspect and dynamically call classes, methods, attributes etc at runtime. Java Reflection lets a developer write programs that do not need to know everything at compile time that is code can be written against known interfaces but actual classes can be instantiated using reflection.
 
- a) Run the application.java file.
- b) Hit the following URL: http://localhost:8080/getEmployeeData
- c) Upon entering the details the output will be observed.
->>>>>>> 563ab26bc3cfcfa2cb64a13d3028c34509374146
+In this project, there is an example which explains the following:
+a) We have 3 different schools (British, Juan, Ryan)
+b) We have different facilities in different schools (administration, playground, theatre)
+c) EnglishFactory class uses REFLECTION to return an instance of English school.
+d) SpanishFactory class uses REFLECTION to return an instance of Spanish school.
+e) If the school doesnt match, then school factory exception is returned.
